@@ -1,0 +1,36 @@
+{
+  "name": "node-red-tekos-create-bot-in-matrix",
+  "version": "1.0.3",
+  "description": "Subflow to create a new Bot in the Tekos Matrix Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tombcat/tekos-flows.git"
+  },
+  "keywords": [
+    "node-red",
+    "Tekos",
+    "Chat",
+    "Matrix"
+  ],
+  "author": "Marcin <marcin@tekos.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tombcat/tekos-flows/issues"
+  },
+  "homepage": "https://github.com/Tombcat/tekos-flows#readme",
+  "node-red": {
+        "nodes": {
+            "example-node": "example.js"
+        },
+        "dependencies": [
+            "node-red-contrib-image-tools"
+        ]
+    },
+    "dependencies": {
+        "node-red-contrib-image-tools": "1.4.0"
+    }
+}
