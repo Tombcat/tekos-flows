@@ -1,6 +1,6 @@
 {
   "name": "node-red-tekos-create-bot-in-matrix",
-  "version": "1.0.4",
+  "version": "1.0.3",
   "description": "Subflow to create a new Bot in the Tekos Matrix Server",
   "main": "index.js",
   "scripts": {
